@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-/************************************************************************************************************/
+/*************************************************************************************************************/
 /****************************************       HEADER       ************************************************/
 header{
     width: 1440px;
@@ -49,7 +49,7 @@ button{
 }
 
 /***************************************************************************************************************/
-/******************************                 BANNER                  ****************************************/
+/******************************                 BANNER                  ***************************************/
 
 .banner{
     position: absolute;
@@ -93,11 +93,15 @@ button{
     color: white;
     text-size-adjust: 30px;
     font-style: normal;
+    margin-top: 40px;
 }
 
 .texto_banner a{
-    font-style: italic;
+    font-style: normal;
     color: white;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -10px;
 }
 
 /***************************************************************************************************************/
@@ -108,7 +112,6 @@ button{
     width: 1440px;
     height: 500px;
     top: 580px;
-    border: 1px solid red;
 }
 
 .img_destaque{
@@ -153,4 +156,124 @@ figcaption{
     text-decoration: none;
     text-size-adjust: 24px;
     font-style: normal;
+}
+
+/***************************************************************************************************************/
+/******************************                 NOVIDADES                  ************************************/
+
+.novidades{
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 0px;
+    top: 1080px;
+
+    background: #082373;
+}
+
+.novidades img{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 886px;
+}
+
+.texto_novidades{
+    position: absolute;
+    width: 570px;
+    height: 280px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.texto_novidades h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.texto_novidades p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: white;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.texto_novidades a{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: white;
+    margin-top: 40px;
+    margin-left: -10px;
+    font-style: bold;
+}
+
+/***************************************************************************************************************/
+/******************************                 FOOTER/RODAPÉ                  ********************************/
+
+.rodape{
+    position: absolute;
+    width: 1440px;
+    height: 350px;
+    left: 0px;
+    top: 1580px;
+}
+
+.logo_rodape img{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-left: 85px;
+    margin-top: 155px;
+}
+
+.info_contato{
+    position: absolute;
+    font-size: large;
+    width: 194px;
+    height: 233px;
+    margin-left: 511px;
+    margin-top: 70px;
+}
+
+.topico_email{
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+
+.topico_endereco{
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    margin-top: 15px;
+}
+
+.topico_telefone{
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    margin-top: 15px;
+}
+
+.col-4{
+    position: absolute;
+    width: 1000px;
+    height: 100px;
+    margin-left: 870px;
+    margin-top: 50px;
+}
+
+.menu_rodape{
+    position: absolute;
+    width: 120px;
+    height: 150px;
+    left: 870px;
+    top: 180px;
+}
+
+li{
+    list-style-type: none;
+    line-height: 1.5;
 }
